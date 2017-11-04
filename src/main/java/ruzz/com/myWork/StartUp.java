@@ -9,13 +9,13 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
  *
  */
 @SpringBootApplication
-public class startUp extends WebMvcConfigurerAdapter
+public class StartUp extends WebMvcConfigurerAdapter
 {
 
         public static void main(String[] args) throws Exception
         { 
             /*SpringApplication application = new SpringApplication(startUp.class);
             application.run(args); */
-            SpringApplication.run(startUp.class, args);
+            SpringApplication.run(StartUp.class, args);
         }
 }

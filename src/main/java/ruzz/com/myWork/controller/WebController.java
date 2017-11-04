@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 @RequestMapping("/myWork")
-public class webController {
+public class WebController {
     
     @ResponseBody
     @RequestMapping(value={"/hello"},method=RequestMethod.GET)
