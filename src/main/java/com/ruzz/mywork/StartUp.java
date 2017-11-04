@@ -2,7 +2,7 @@ package com.ruzz.mywork;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+import org.springframework.boot.web.servlet.ServletComponentScan;
 
 /**
  * Hello world!
@@ -10,6 +10,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
  */
 @SpringBootApplication
 //@Configuration
+@ServletComponentScan
 public class StartUp
 {
 

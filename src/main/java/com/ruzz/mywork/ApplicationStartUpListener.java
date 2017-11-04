@@ -7,7 +7,7 @@ public class ApplicationStartUpListener implements ApplicationListener<Applicati
 
     @Override
     public void onApplicationEvent(ApplicationEvent event) {
-        // TODO Auto-generated method stub
+        System.out.println("onApplicationEvent------执行");
         
     }
 
